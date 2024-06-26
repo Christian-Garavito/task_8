@@ -10,6 +10,7 @@ import { HomePage, PokemonPage, SearchPage } from './pages';
 // Componente que define las rutas de la aplicación
 export const AppRouter = () => {
     return (
+        // guarda todas las rutas  
         <Routes>
             {/* Ruta base que muestra la barra de navegación en todas las páginas */}
             <Route path='/' element={<Navigation />}>
